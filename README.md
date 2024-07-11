@@ -1,0 +1,1 @@
+# grants-stack-widget-react
