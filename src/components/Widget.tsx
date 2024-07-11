@@ -1,9 +1,9 @@
+import * as React from "react";
 import { useEffect, useState } from "react";
 import "./Widget.css";
-import { Application, fetchActiveApplications } from "./query";
-import { allNetworks, mainnetNetworks, validateBytes32 } from "./utils";
+import { Application, fetchActiveApplications } from "../query";
+import { allNetworks, mainnetNetworks, validateBytes32 } from "../utils";
 import Logo from "./Logo";
-import * as React from "react";
 
 interface WidgetProps {
   projectId: `0x${string}`;
