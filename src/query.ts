@@ -29,7 +29,7 @@ const applicationQuery = (
   query ApplicationQuery {
     applications(filter: {
       projectId: { equalTo: "${projectId}" },
-      chainId: { in: ${chainIds} }
+      chainId: { in: [${chainIds}] }
       round: {
         donationsStartTime: { lessThan: "${now}" }
         donationsEndTime: { greaterThan: "${now}" }
