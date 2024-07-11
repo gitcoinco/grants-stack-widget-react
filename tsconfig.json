@@ -9,6 +9,5 @@
     "moduleResolution": "node",
     "allowJs": true
   },
-  "include": ["./src/**/*"],
-  "mode": "production"
+  "include": ["./src/**/*"]
 }
