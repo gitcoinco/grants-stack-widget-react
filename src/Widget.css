@@ -1,0 +1,23 @@
+.widget-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.widget-logo-container {
+  margin-right: 10px;
+}
+
+.widget-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.widget-select-container {
+  flex-grow: 1;
+}
+
+.widget-select {
+  padding: 8px;
+  font-size: 16px;
+}
