@@ -1,9 +1,9 @@
-import * as React from "react";
 import { useEffect, useState } from "react";
 import "./Widget.css";
 import { Application, fetchActiveApplications } from "./query";
 import { allNetworks, mainnetNetworks, validateBytes32 } from "./utils";
 import Logo from "./Logo";
+import * as React from "react";
 
 interface WidgetProps {
   projectId: `0x${string}`;
@@ -83,7 +83,7 @@ const Widget: React.FC<WidgetProps> = ({
           {options?.length > 0 &&
             options.map((application, index) => (
               <option key={index + 2} value={(index + 2).toString()}>
-                {application.project.name.slice(0, 26) + "..."}
+                {application.round.roundMetadata.name.slice(0, 26) + "..."}
               </option>
             ))}
         </select>

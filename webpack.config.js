@@ -29,4 +29,7 @@ module.exports = {
     react: "react",
     "react-dom": "react-dom",
   },
+  optimization: {
+    usedExports: true,
+  },
 };

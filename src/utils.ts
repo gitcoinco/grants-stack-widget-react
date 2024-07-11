@@ -1,4 +1,5 @@
-import { getChains, TChain } from "@gitcoin/gitcoin-chain-data";
+import { TChain } from "@gitcoin/gitcoin-chain-data";
+import { getChains } from "@gitcoin/gitcoin-chain-data";
 
 export const validateBytes32 = (str: string): boolean => {
   const bytes32Regex = /^0x[a-fA-F0-9]{64}$/;
