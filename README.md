@@ -142,7 +142,7 @@ To contribute or make changes, follow these steps:
 
 1. Clone the repository.
 2. Run `npm install` to install dependencies.
-3. Run `npm start` to start the development server.
+3. Run `npm build` to build the package.
 4. Make your changes and submit a pull request.
 
 ---
