@@ -3,9 +3,10 @@
   "version": "0.0.4",
   "description": "This widget displays active donation rounds and offers a direct link for contributions to your project. Follow this guide for a quick and easy setup.",
   "main": "dist/bundle.js",
-  "types": "dist/index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "setup-test-frontend": "./setup-test-frontend.sh"
   },
   "keywords": [],
   "author": "",

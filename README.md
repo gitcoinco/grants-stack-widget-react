@@ -145,8 +145,31 @@ To contribute or make changes, follow these steps:
 3. Run `npm start` to start the development server.
 4. Make your changes and submit a pull request.
 
----
+## 🧪 Setting Up a Test Frontend
 
-For any questions or issues, please open an issue on GitHub or contact the maintainers.
+You can set up a test frontend environment to test the widget locally:
 
-Happy coding! 🚀
+1. Use `chmod` to make the script executable:
+```bash
+chmod +x setup-test-frontend.sh
+```
+2. Run the setup script:
+
+```bash
+npm run setup-test-frontend
+```
+
+This script will:
+    - Create a `test-frontend` folder.
+    - Initialize a new React app in the `test-frontend` folder.
+    - Install the local widget dependency in the React app.
+    - Overwrite `App.js` with a sample implementation of the widget.
+
+### Ignoring the Test Frontend
+
+Make sure the `test-frontend` folder is added to your `.gitignore` to prevent it from being included in version control:
+
+```plaintext
+# Ignore test frontend folder
+/test-frontend
+```
